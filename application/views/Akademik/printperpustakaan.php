@@ -88,13 +88,13 @@
 							<table class="table table-bordered" style="border-collapse: collapse; width: 100%; margin: 0 auto;text-align: center;">
 								<!--  <button class="btn btn-success" formaction="<? php // echo base_url('Kemahasiswaan/cetakpdf'); 
 																					?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<? php // echo base_url('Kemahasiswaan/cetakpdf'); 
-																																																		?>"><font color="white">Cetak PDF</font></a></button>&nbsp;&nbsp;&nbsp; 
+																																						?>"><font color="white">Cetak PDF</font></a></button>&nbsp;&nbsp;&nbsp; 
                       <button class="btn btn-success" formaction="<?php // echo base_url('Kemahasiswaan/exportExcel'); 
 																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<?php // echo base_url('Kemahasiswaan/exportExcel'); 
-																																																		?>"><font color="white">Ekspor ke Excel</font></a></button>&nbsp;&nbsp;&nbsp;
+																																		?>"><font color="white">Ekspor ke Excel</font></a></button>&nbsp;&nbsp;&nbsp;
                       <button class="btn btn-success" formaction="<?php // echo base_url('Kemahasiswaan/cetak'); 
 																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<?php // echo base_url('Kemahasiswaan/cetak'); 
-																																																		?>"><font color="white">TCPDF</font></a></button> -->
+																																		?>"><font color="white">TCPDF</font></a></button> -->
 								<thead style="text-align: center;">
 									<tr>
 										<th rowspan="2">No.</th>
@@ -136,7 +136,7 @@
 			<div class="pull-right hidden-xs">
 				<b>Version</b> 2.4.0
 			</div>
-			<strong>Fakultas Teknik | &#169; 2019 <a href='#' title='Me' target='_blank'>Iglasia A.H</a></strong>
+			<strong>Fakultas Teknik | &#169; 2019 <a href='#' title='Me' target='_blank'>Iglasia</a></strong>
 		</footer>
 		<!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
