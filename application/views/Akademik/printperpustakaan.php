@@ -87,14 +87,14 @@
 							<h4>Jumlah Koleksi Buku Perpustakaan per Tahun</h4>
 							<table class="table table-bordered" style="border-collapse: collapse; width: 100%; margin: 0 auto;text-align: center;">
 								<!--  <button class="btn btn-success" formaction="<? php // echo base_url('Kemahasiswaan/cetakpdf'); 
-																																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<? php // echo base_url('Kemahasiswaan/cetakpdf'); 
-																																																																			?>"><font color="white">Cetak PDF</font></a></button>&nbsp;&nbsp;&nbsp; 
+																					?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<? php // echo base_url('Kemahasiswaan/cetakpdf'); 
+																																																		?>"><font color="white">Cetak PDF</font></a></button>&nbsp;&nbsp;&nbsp; 
                       <button class="btn btn-success" formaction="<?php // echo base_url('Kemahasiswaan/exportExcel'); 
-																																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<?php // echo base_url('Kemahasiswaan/exportExcel'); 
-																																																																			?>"><font color="white">Ekspor ke Excel</font></a></button>&nbsp;&nbsp;&nbsp;
+																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<?php // echo base_url('Kemahasiswaan/exportExcel'); 
+																																																		?>"><font color="white">Ekspor ke Excel</font></a></button>&nbsp;&nbsp;&nbsp;
                       <button class="btn btn-success" formaction="<?php // echo base_url('Kemahasiswaan/cetak'); 
-																																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<?php // echo base_url('Kemahasiswaan/cetak'); 
-																																																																			?>"><font color="white">TCPDF</font></a></button> -->
+																	?>" type="submit"><i class="glyphicon glyphicon-plus"></i><a href="<?php // echo base_url('Kemahasiswaan/cetak'); 
+																																																		?>"><font color="white">TCPDF</font></a></button> -->
 								<thead style="text-align: center;">
 									<tr>
 										<th rowspan="2">No.</th>
@@ -136,7 +136,7 @@
 			<div class="pull-right hidden-xs">
 				<b>Version</b> 2.4.0
 			</div>
-			<strong>Fakultas Teknik | &#169; 2019 <a href='#' title='Me' target='_blank'>Iglasia</a></strong>
+			<strong>Fakultas Teknik | &#169; 2019 <a href='#' title='Me' target='_blank'>Iglasia A.H</a></strong>
 		</footer>
 		<!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
@@ -312,15 +312,15 @@
 		})
 	</script>
 	<!-- <?php
-				//foreach($data as $dt){
-				// $jumlah1[] = $dt->jumlah1;
-				//$jumlah2[] = $dt->jumlah2;
-				// $jumlah3[] = $dt->jumlah3;
-				//$jumlah4[] = $dt->jumlah4;
-				//$jumlah5[] = $dt->jumlah5;
-				//$jumlah6[] = $dt->jumlah6;
-				//  }
-				?> -->
+			//foreach($data as $dt){
+			// $jumlah1[] = $dt->jumlah1;
+			//$jumlah2[] = $dt->jumlah2;
+			// $jumlah3[] = $dt->jumlah3;
+			//$jumlah4[] = $dt->jumlah4;
+			//$jumlah5[] = $dt->jumlah5;
+			//$jumlah6[] = $dt->jumlah6;
+			//  }
+			?> -->
 	<script>
 		$(function() {
 			/* ChartJS
@@ -339,7 +339,7 @@
 
 			var areaChartData = {
 				labels: [<?php foreach ($data2 as $key) {
-										echo $key['tahun']; ?>,
+								echo $key['tahun']; ?>,
 					<?php } ?>
 				],
 				datasets: [{
@@ -351,8 +351,8 @@
 					pointHighlightFill: '#fff',
 					pointHighlightStroke: 'rgba(60,141,188,1)',
 					data: [<?php foreach ($data2 as $data2) {
-										echo $data2['jumlah'] . ',';
-									} ?>]
+								echo $data2['jumlah'] . ',';
+							} ?>]
 				}]
 			}
 
